@@ -54,6 +54,15 @@ a {
 
 .hero-img {
     flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero-img img {
+    height: 250px;
+    width: 450px;
+    border-radius: 16px;
 }
 
 .hero-content__title {
@@ -193,4 +202,15 @@ a {
     background-color: #3882f6;
     border: 2px solid #fff;
     color: #fff;
+}
+
+/* footer */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #fff;
+    padding: 32px 0;
 }
